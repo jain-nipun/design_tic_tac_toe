@@ -7,3 +7,6 @@ Created a Python Program that will play a game of Tic Tac Toe. The program will 
 The program will print the state of the board plus any modifications to the state made by --player and --cell along with the final outcome of the game which can either be "No winner" or "{player} has won."
 When run with no arguments, it should print a blank Tic-Tac-Toe board and "No winner".
 If a player tries to take an occupied cell, or a player is not in 'XO', or a cell is not in range [1-9], or a board does not represent 9 characters from '.' or 'X' or 'O', or if only --player or --cell is given, the program will throw an error with suitable error message.  
+# How to run the program
+Step 1 : Open the command Prompt
+Step 2 : write the following syntax -> python <filePath>\<fileName> -b .XX....OO -p X -c 1
